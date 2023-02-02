@@ -110,7 +110,8 @@ cameraProvider.unbindAll()
 
 // Bind use cases to camera
 cameraProvider
-.bindToLifecycle(this, cameraSelector, preview, imageAnalyzer)
+.bindToLifecycle(this, cameraSelector, preview, imageAnalyzer)che
+
 } catch(exc: Exception) {
 Log.e(TAG, "Use case binding failed", exc)
 }
